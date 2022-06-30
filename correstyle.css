@@ -1,0 +1,41 @@
+* {
+  margin:0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;  
+}
+
+header{
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: crimson;
+    height: 100px;
+    align-items: center;
+    
+}
+
+header .list-itens{
+    display: flex;
+}
+
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+ul{
+
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
